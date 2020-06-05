@@ -1,0 +1,17 @@
+index.js
+灰色的包表示没有用到可以删掉(如果写着就不能删除该文件)
+ReactDOM.render()中写哪个组件就会显示哪个组件（主入口组件）
+
+npm start显示该组件
+
+该组件render()如果有子组件，亦可以打开
+
+package.json可以查看安装的版本
+
+React-router的源码：
+https://github.com/ReactTraining/react-router
+进package
+route源码返回值是什么封装什么
+https://github.com/ReactTraining/react-router/blob/master/packages/react-router/modules/Route.js
+router源码返回值是什么封装什么
+https://github.com/ReactTraining/react-router/blob/master/packages/react-router/modules/Router.js

@@ -1,0 +1,28 @@
+ps -e 显示所有进程
+
+ps -e | less 分页显示进程
+
+ps -e -o user,pid,ppid,comm,args
+按照'用户，进程ID，父进程ID，命令名称，参数'的格式显示进程。
+
+ps -e -o user,pid,ppid,comm,args | grep [关键字]
+按照指定关键字搜索进程。
+
+kill [PID]
+终止指定PID的进程。
+
+
+kill -9 [PID]
+强制终止进程，发送SIGKILL信号
+相当于 kill -s SIGKILL [PID]
+
+使用adduser创建普通用户以后，
+默认会在/home目录中创建和用户名相同的目录。
+当用户登录时，默认就会进入此目录。
+
+直接运行cd，就可以回到用户主目录，不论当前目录在哪。
+
+
+
+
+

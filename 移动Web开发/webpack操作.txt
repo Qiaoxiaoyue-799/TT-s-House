@@ -1,0 +1,47 @@
+创建一个文件夹webpack-a
+在它里面执行yarn init -y
+yarn -v 看版本
+yarn add webpack webpack-cli -D初始化webpack和webpack-cli
+
+手动创建src文件夹
+src里写index.js
+
+执行npx webpack初始化dist文件夹
+
+创建public文件夹和index.html文件
+引入main.js
+
+再次打包
+
+手动打开html文件
+
+手动创建webpack.config.js
+
+在package.js中添加"scripts"项
+
+在index.html文件中把原来引的main.js改成引入../build/index.js
+
+yarn add webpack-dev-server -D
+
+npx webpack-dev-server再次打包
+
+yarn add html-webpack-plugin -D
+
+npx webpack
+
+npm run start自动打开
+
+
+要考**
+最上面引入插件
+var path = require("path");
+var HtmlWebpackPlugin = require("html-webpack-plugin");
+var MiniCssExtractPlugin = require('mini-css-extract-plugin');
+入口出口要看
+module的rules，test后面写什么（正则表达式格式），use格式。
+export里面各个对象
+
+react 操作
+npm start一般打开
+交作业 npm run build
+请求响应  npm i axios
