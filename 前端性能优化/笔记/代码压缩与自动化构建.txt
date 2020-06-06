@@ -1,0 +1,24 @@
+1.配好Gruntfile.js
+2.运行npm init -y生成package.json
+3.安装插件
+npm install grunt grunt-contrib-htmlmin --save-dev
+npm install grunt grunt-contrib-cssmin --save-dev
+npm install grunt grunt-contrib-uglify --save-dev
+4.运行grunt 生成dist压缩文件
+5.查看dist文件（效果是否一样，代码空格已压缩）
+6.删文件：dist、node_modules、两个json文件
+7.上传仓库（直接放进新建的仓库就行，正常提交，无参数）
+8.配置环境变量
+ACC_TOKEN:     f3328e165aa7e26668b034b250decc35e7c3907e
+
+BRANCH:           gh-pages
+
+GH_REF:          github.com/Qiaoxiaoyue-799/register（这个要看好对应仓库）
+
+USER_EMAIL:   1194110992@qq.com
+
+USER_NAME:   Qiaoxiaoyue-799
+9.还原json文件，exit改成0，license改成MIT
+10.提交仓库，完成。
+报jquery错误，改为：
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>

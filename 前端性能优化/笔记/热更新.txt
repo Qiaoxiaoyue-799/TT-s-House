@@ -1,0 +1,8 @@
+browser-sync start --server --files "*.html"
+默认找index.html
+如果html文件为其他名字：
+browser-sync start --server --files "/1.html"
+
+
+jquery引入：
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
